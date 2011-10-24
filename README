@@ -5,7 +5,9 @@ An iPhone app that lets you look Instagram photos that you´ve liked.
 
 It was made with iOS SDK 4.x, but it works on 5.0 too. It uses Instagram´s official API to retrieve the user´s likes, It authenticates with OAuth, it uses a url redirection across Safari mobile app and Instalike app, a la Facebook Single sign-on.
 
-Third party code
+Third party stuff
 -Stig Brautaset´s JSON parser.
 -Reachability code: http://developer.apple.com/library/ios/#samplecode/Reachability/Introduction/Intro.html
 -Lazy loading: http://developer.apple.com/library/ios/#samplecode/LazyTableImages/index.html
+-Button asset by Murat Mutlu, http://designmoo.com/3535/instagram-sign-in-buttons/
+-Font: "Honeyscript", http://www.dafont.com/honey-script.font

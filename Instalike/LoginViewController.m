@@ -65,19 +65,6 @@
 #pragma mark - Class methods
 -(void) signInWithSafari
 {
-    
-//    LikesViewController *aViewController = [[LikesViewController alloc] initWithNibName:@"LikesViewController" bundle:[NSBundle mainBundle]];
-//    
-//    aViewController.view = aViewController.view;
-//    
-//    [self.navigationController pushViewController:aViewController animated:YES];
-//    
-//    [aViewController release];
-//    
-//    return;
-    
-    //use your custom client id here, 
-    //oh and please, don´t be evil with these one. Thanks.
     NSURL *url = [NSURL URLWithString:@"https://instagram.com/oauth/authorize/?client_id=5bec4ee3aee2493a8779aa6758f3ba5c&display=touch&redirect_uri=instalike://&response_type=token"];
     
     [[UIApplication sharedApplication] openURL:url];
